@@ -254,8 +254,7 @@ retainLocal方法和retainServer方法：分别演示了如何使用本地内存
 StringBitMap实现了String类型的bitMap，通过对hash算法的改进，能够做到1亿字符串数据只有200多的碰撞率，5000万内数据几乎没有碰撞率，对于不超过1亿的数据是很合适的，但1亿以上的字符串数量仍然不合适，碰撞率会大幅上升。开源包指南附带CountDemo.java里的stringBitMapTest方法演示了模拟1000万随机生成的15位IMEI设备号，并返回碰撞个数。
 
 4.17.10版本同时提供jdk1.8.0_151编译下"fourinone.jar"包和jdk1.7.0_80编译下"fourinone-jdk7.jar"包。
-由于google code国内访问常常受限，4.15.08版本只更新oschina code和csdn code
-
+4.17.10版本更新github code和gitee code
 
 本软件遵循apache2.0开源软件协议，自由分享
 (C) 2007-2012 Alibaba Group Holding Limited
